@@ -92,7 +92,7 @@ function generatePassword() {
 
   if (!options) return null;
 
-// para obtener resultados
+// Para obtener resultados
   if (options.hasSpecialCharacters) {
     possibleCharacters = possibleCharacters.concat(specialCharacters);
     guaranteedCharacters.push(getRandom(specialCharacters));
@@ -113,7 +113,7 @@ function generatePassword() {
     guaranteedCharacters.push(getRandom(upperCasedCharacters));
   }
 
-  // un bucle i viene de 9
+  // El bucle i viene de 9
   for (var i = 0; i < options.length; i++) {
     var possibleCharacter = getRandom(possibleCharacters);
 
@@ -124,7 +124,7 @@ function generatePassword() {
     result[i] = guaranteedCharacters[i];
   }
 
-  // para obtener la contraseña
+  // Para obtener la contraseña
   return result.join('');
 }
 
