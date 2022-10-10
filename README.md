@@ -1,4 +1,5 @@
-Generador de Código Aleatorio
+Generador de Código Aleatorio.
+
 A partir de una plantilla se trabajó en un generador de código.
 Se hicieron cambios en el css para mejorar la visibilidad del generador.
 En lo que se refiere a el java script se recibió solamente una sección minúscula de arranque motivo por el cual se desarrollo desde abajo hacia arriba y se verificó paso a paso la información en la consola del navegador.
